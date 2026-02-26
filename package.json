@@ -1,0 +1,13 @@
+{
+  "name": "darjeeling",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --parallel --filter './packages/*' dev",
+    "build": "pnpm --filter './packages/*' build",
+    "typecheck": "pnpm --filter './packages/*' typecheck",
+    "lint": "pnpm --filter './packages/*' lint"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
